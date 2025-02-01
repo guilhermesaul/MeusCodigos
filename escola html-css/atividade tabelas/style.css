@@ -1,0 +1,28 @@
+@charset "UTF-8";
+ div {
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+  body {
+    background-color: #E0E0E0;
+  }
+
+    tr:hover {
+        background-color: #cfcfcf;
+  }
+
+  table {
+
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 25px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.1);
+    }
+
+  .D {
+    text-align: left;
+  }
+

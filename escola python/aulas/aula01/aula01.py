@@ -1,0 +1,1 @@
+print("Matricula: 20241101110025 \nNome completo: Guilherme Saul dos Santos Saraiva \nEndereço eletrônico: s.saul@escolar.ifrn.edu.br \nCurso que você frequenta: Informatica para Internet")
