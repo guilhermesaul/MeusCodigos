@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SistCadAlunos</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #cabeca {
+            background-color: #4caf50;
+            padding-top: 1px;
+            color: white;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        #principal {
+            text-align: center;
+            margin-bottom: 4px;
+        } 
+        #secundario {
+            text-align: center;
+            margin-top: 0;
+        }
+        #cadastro {
+            background-color: white;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: 380px;
+            height: 120px;
+            margin-top: 15px;
+            box-shadow: 2px 2px 1px 1px #eaeaea;
+        }
+        #cad {
+            margin-left: 15px;
+            padding-top: 15px;
+        }
+        #cad2 {
+            margin-left: 15px;
+        }
+        #formulario {
+            background-color: white;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: 380px;
+            margin-top: 15px;
+            box-shadow: 2px 2px 1px 1px #eaeaea;
+        }
+        #forms {
+            margin-left: 15px;
+            padding-top: 15px;
+            margin-bottom: 25px;
+        }
+        .cont {
+            width: 90%;
+            height: 30px;
+            padding-left: 10px;
+            padding-right: 35px;
+            border-radius: 4px;
+            border:  solid 1px #c7c7c7;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        label {
+            margin-left: 15px;
+            margin-bottom: 10px;
+            width: 1000%;
+        }
+        select {
+            width: 96%;
+            height: 35px;
+            padding-left: 10px;
+            padding-right: 35px;
+            border-radius: 4px;
+            border: solid 1px #c7c7c7;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        .opcao {
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        textarea {
+            width: 90%;
+            height: 70px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 35px;
+            border-radius: 4px;
+            border:  solid 1px #c7c7c7;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        #button {
+            background-color: #4caf50;
+            width: 96%;
+            color: white;
+            font-size: large;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border:  solid 1px #c7c7c7;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        #final {
+            background-color: rgb(49, 49, 49);
+            padding-top: 15px;
+            color: white;
+            padding-bottom: 15px;
+            margin-top: 30px;
+        }
+        #terceiro {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabeca">
+        <h1 id="principal">Sistema de Cadastro de Alunos</h1>
+        <p id="secundario">Preencha o formulário abaixo para registrar novos alunos.</p>
+    </div>
+    <div id="cadastro">
+        <h3 id="cad">Sobre o cadastro</h3>
+        <p id="cad2">Este formulário é destinado ao registro de informações básicas do alunos, como nome, idade, curso e preferências. Certifique-se de preencher todos os campos obrigatórios.</p>
+    </div>
+    <div id="formulario">
+        <h3 id="forms">Formulário de Cadastro</h3>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" placeholder="Digite o nome completo" class="cont" >
+        <label for="email" >E-mail:</label>
+        <input type="email" placeholder="Digite o e-mail" class="cont">
+        <label for="idade">Idade:</label>
+        <input type="text" placeholder="Digite a idade" class="cont">
+        <label for="curso">Curso:</label>
+        <select name="curso">
+            <option>Selecione um curso:</option>
+            <option>Informatica</option>
+            <option>Eletrotécnica</option>
+            <option>Vestuario</option>
+            <option>Textil</option>
+        </select>
+        <label for="Turno">Turno:</label>
+        <br>
+        <input type="radio" name="turno" class="opcao"> Manhã
+        <input type="radio" name="turno" class="opcao"> Tarde
+        <input type="radio" name="turno" class="opcao"> Noite
+        <br>
+        <label for="Interesses">Interesses:</label>
+        <br>
+        <input type="checkbox" name="interesses" class="opcao"> Esportes
+        <input type="checkbox" name="interesses" class="opcao"> Música
+        <input type="checkbox" name="interesses" class="opcao"> Cultura
+        <br>
+        <label for="comentarios">Comentários:</label>
+        <textarea placeholder="Escreva as observações ou informações adicionais"></textarea>
+        <input type="submit" value="Cadastrar" id="button">
+    </div>
+    <div id="final">
+        <p id="terceiro">© 2024 Sistema de Cadastro de Alunos. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
