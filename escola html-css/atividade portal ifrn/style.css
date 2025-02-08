@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*div {
+    transform: scale(1);
+    background-image: url(imagens/icones-header.png);
+}*/
+header {
+    display: flex;
+    background-color: #FAFAFA;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 90px;
+}
+#paragrafo-cabecalho {
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 40px;
+}
+#logo {
+    width: 200px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#icones-header {
+    width: 40%;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 79%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7.5px;
+    border-bottom: solid 1px #E8E8E5;
+    flex-wrap: wrap;
+}
+nav p {
+    margin-right: 50px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 14px;
+}
+main {
+    display: flex;
+}
+
+div img {
+    width: 300px;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 70px;
+    border-radius: 24px;
+}
